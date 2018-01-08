@@ -67,8 +67,9 @@ For detailed instructions, refer to https://codelabs.developers.google.com/codel
 
 ## Authors
 
+```
 Miko Pohjalainen
 Lauri Tervonen
 Joonas Harjumaki
 Muhammad Abdullah Khan
-
+```
