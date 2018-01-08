@@ -1,0 +1,7 @@
+Flask==0.12.2
+firebase-admin==2.5.0
+requests==2.4.2
+gunicorn==19.6.0
+pyfcm
+google-cloud-storage
+urllib3

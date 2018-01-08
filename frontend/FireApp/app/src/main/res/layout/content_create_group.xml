@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abdullah.fireapp.CreateGroupActivity"
+    tools:showIn="@layout/activity_create_group"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name_label"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_weight="0"
+            android:gravity="center_vertical"
+            android:text="Name"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/create_group_name"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/name_label"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="117dp">
+
+        <TextView
+            android:id="@+id/expires_label"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_weight="0"
+            android:text="Expires"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name_label" />
+
+        <EditText
+            android:id="@+id/expires_date"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="date"
+            android:inputType="date"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/expires_label"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <EditText
+            android:id="@+id/expires_time"
+            android:layout_width="98dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="time"
+            android:inputType="time"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/expires_date"
+            tools:layout_editor_absoluteY="170dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/create_group_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0"
+            android:clickable="true"
+            app:backgroundTint="@color/md_green_400"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/check" />
+    </LinearLayout>
+
+</LinearLayout>

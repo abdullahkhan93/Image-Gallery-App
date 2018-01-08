@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "414634745385",
+    "firebase_url": "https://mcc-fall-2017-g03.firebaseio.com",
+    "project_id": "mcc-fall-2017-g03",
+    "storage_bucket": "mcc-fall-2017-g03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414634745385:android:f4b8510decf8ef14",
+        "android_client_info": {
+          "package_name": "com.example.abdullah.fireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414634745385-uf298vv85vcerfh15rl5143h3psflf1c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdullah.fireapp",
+            "certificate_hash": "01a6047ec73d3194d46a94eb3574397499f3a276"
+          }
+        },
+        {
+          "client_id": "414634745385-co75uj4i3j51cd3r2kl8jqebh10u8sm0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdullah.fireapp",
+            "certificate_hash": "a7f3085971a003018db98691a60a6182b4145db9"
+          }
+        },
+        {
+          "client_id": "414634745385-38iu8605s76anadrbv1u32jdfffm76l5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdullah.fireapp",
+            "certificate_hash": "0a1429ef28baa045124987b68e215db3258087ef"
+          }
+        },
+        {
+          "client_id": "414634745385-hfdjep8tmh9843a6ivjn4b8rsioe2q0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdullah.fireapp",
+            "certificate_hash": "7377b3f80084815e904e92e60025f19333a87104"
+          }
+        },
+        {
+          "client_id": "414634745385-1bfckabs8354na055tp8a9v51p13t6e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgo-ahNmuK6hzB_DdwcgjQ049bO4je9V4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414634745385-1bfckabs8354na055tp8a9v51p13t6e5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ImageSizes">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <integer-array name="ImageSizesValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+</resources>

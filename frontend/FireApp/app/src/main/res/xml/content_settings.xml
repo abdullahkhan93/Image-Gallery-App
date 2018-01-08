@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<PreferenceCategory
+    android:title="Main settings">
+
+    <CheckBoxPreference
+        android:key="barcodePref"
+        android:title="Barcode protection"
+        android:summary="Scan pictures for barcodes and ask confirmation before sharing them."/>
+
+    <ListPreference
+        android:key="imageSizePrefWifi"
+        android:title="Image size on WiFi"
+        android:defaultValue="Large"
+        android:summary="Set the image size of pictures synced from the cloud"
+        android:entries="@array/ImageSizes"
+        android:entryValues="@array/ImageSizes"/>
+
+    <ListPreference
+        android:key="imageSizePrefMobile"
+        android:title="Image size on mobile"
+        android:defaultValue="Small"
+        android:summary="Set the image size of pictures synced from the cloud"
+        android:entries="@array/ImageSizes"
+        android:entryValues="@array/ImageSizes"/>
+
+</PreferenceCategory>
+
+</PreferenceScreen>
