@@ -1,4 +1,4 @@
-# Schizophrenic Squid
+# Image Gallery Application for Android
 
 ## Requirements
 
